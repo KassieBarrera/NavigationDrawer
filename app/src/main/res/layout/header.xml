@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/luna"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+   <!-- <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imagen_perfil"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/user"
+        app:civ_border-color="#FF000000"
+        app:civ_border_width="2dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>-->
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/user"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kassie Barrera"
+        android:textColor="#FFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="italic|bold"/>
+
+
+</LinearLayout>
